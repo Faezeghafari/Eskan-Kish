@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('../font/Sans\ a4fran3.ttf') format('truetype');
+}
+*{
+    font-family: 'iransans';
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.text-center{
+    text-align: center !important;
+}
+.margin-top-30px{
+    margin-top: 30px;
+}
+.font-size-2-rem{
+    font-size: 2rem;
+}
+body{
+    background: #f5f5f5;
+}
+header{
+       border-top: 4px solid  #0078ae;
+       background: #fff;
+       position: sticky;
+       z-index: 9;
+       top: 0;
+       left: 0;
+}
+header .whatsapp{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0;
+}
+header .whatsapp img{
+    vertical-align: middle;
+    fill: #999;
+}
+header .whatsapp a{
+    color: #000;
+    text-decoration: none;
+}
+header .whatsapp a:hover{
+    color: #0078ae;
+}
+header .logo{
+    width: 90%;
+    margin: -20px auto;
+}
+header .logo img{
+    width: 200px;
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+header nav ul li{
+    padding: 0 10px;
+   
+}
+header nav ul li a{
+    font-size: .9rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+header nav ul li:last-child a{
+    display:flex;
+    align-items: center;
+}
+header nav ul li:last-child img{
+    margin-left: 3px;
+}
+main section#home-pic .image img{
+    width: 100%;
+}
+main section#home-pic h1{
+    width: 60%;
+    margin:20px auto 10px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+main section#home-pic p{
+    width: 50%;
+    line-height: 1.5;
+    margin: 10px auto;
+    text-align: center;
+}
+main section#features .container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+main section#features .container .item{
+    width: 25%;
+    text-align: center;
+}
+main section#features .container .item .image img{
+    border-radius: 50%;
+}
+main section#features .container .item a{
+    text-decoration: none;
+}
+main section#features .container .item a .title{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+main section#features .container .item .description p{
+    font-size: .8rem;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+main section#features .container .item .description p span{
+    font-weight: bold;
+}
+main section#special h2{
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+main section#special h2 a{
+    text-decoration: none;
+    color: #000;
+}
+main section#special .items{
+    width: 95%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+main section#special .items .item{
+    position: relative;
+    margin: auto;
+    }
+main section#special .items .s-item{
+    width: 19%;
+    height: 100%;
+}
+main section#special .items .b-item{
+    width: 39.5%;
+    height: 100%;
+    justify-content: space-between;
+}
+main section#special .items .s-item .item.tall{
+    height: 100%;
+    background: url('../image/tall.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+main section#special .items .item .hover{
+    background: rgba(0,0,0,.6);
+    position:absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    
+}
+main section#special .items .hover h2{
+    color: #FFF;
+    margin: 0 auto;
+}
+main section#special .items .item .hover hr{
+    border-color: red;
+    border-top-width: 3px;
+    width: 30%;
+    margin: 20px auto;
+    
+}
+main section#special .items .item:hover .hover{
+    opacity: 1;
+    top: 0;
+    transition: .5s;
+    visibility: unset;
+}
+main section#special .items .item > h2{
+    color: red;
+    font-size: .8rem;
+    padding-top: 10px;
+    text-align: right;
+}
+main section#special .items .item:hover > h2{
+    visibility: hidden;
+}
+main section#special .items .b-item .top{
+    width: 100%;
+    height: 49%;
+}
+   main section#special .items .b-item .bottom
+  {  width: 100;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+main section#special .items .b-item .bottom .item.thin{
+    width: 49.5%;
+    height: 99.5%;
+    background: url('../image/small.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+    main section#special .items .b-item .top .item.fat{
+    height: 99.5%;
+    background: url('../image/big.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main section#guid{
+    background: url('../image/big.jpg');
+    width: 95%;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main section#guid .image .saye{
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+main section#guid .container{
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+main section#guid .container p{
+    color: #ffc08d;
+    z-index: 8;
+    font-size: 2em;
+    line-height: 3;
+}
+main section#guid .container .boxes{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    z-index: 8;
+}
+main section#guid .container .boxes .item{
+    width: 50%;
+    border: 2px solid #fff;
+}
+main section#guid .container .boxes .item:first-child{
+    border-left: none;
+}
+main section#guid .container .boxes .item a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+}
+main section#guid .container .boxes .item:hover{
+    border-color: #663333;
+}
+main section#guid .container .boxes .item a:hover{
+    background: #663333;
+    color:#ffc08d;
+}
+main section#safar{
+    background-color: #D7e1eb;
+    width: 100%;
+}
+main section#safar h3{
+    margin: 0 auto;
+    color: #3B3355;
+    padding: 20px;
+    justify-content: center;
+    width: 88%;
+    display: flex;
+    background-color: #D7DAE5;
+}
+main section#safar .middle{
+    display: flex;
+    text-align: right;
+    width: 88%;
+    margin: 0 auto;
+    height: 600px;
+    padding-top: 10px;
+    }
+    main section#safar .middle .image{
+      width: 50%;
+     padding-right: 0;
+     padding-left: 20px;
+     }
+     main section#safar .middle .image img{
+        border-radius: 50%;
+     }
+     main section#safar .middle .description{
+         width: 80%;
+         line-height: 2em;
+         font-size: .9em;
+         text-align: justify;
+     }
+     main section#safar p{
+         line-height: 2em;
+         text-align: justify;
+         margin: 0 auto;
+         font-size: .9rem;
+         width: 80%;
+     }
+     footer{
+         display: flex;
+         background: #D7e1eb;
+     }
+     footer .container{
+         width: 80%;
+         margin: 0 auto;
+         display: flex;
+     }
+     footer .container .item{
+         width: 30%;
+         margin: 0 auto;
+         padding: 20px;
+         box-sizing: border-box;
+     }
+     footer .container .item .header{
+         color: #fff;
+     }
+     footer .container .item .header img{
+         width: 100%;
+         height: 65px;
+     }
+     footer .container .item p{
+         color: #a52026;
+         text-align: justify;
+         padding-top: 20px;
+         box-sizing: border-box;
+         font-size: .9rem;
+     }
+     footer .container .item .m{
+         text-align: right;
+     }
